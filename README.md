@@ -1,8 +1,8 @@
 # Endometrial Cancer
 
 #Details: 
-#  all commands in italic
-#  paths in bold
+*  all commands in italic
+*  paths in bold
 
 **Raw dataset PATH: /local/chib/oconnor_genomes/EndometrialCancer/data/PAIRED**
 
