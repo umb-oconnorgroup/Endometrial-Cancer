@@ -2,6 +2,7 @@
 ######################################################################
 ############################# Regression #############################
 ######################################################################
+#This script includes R code lines from a pipeline created by Dr. Douglas Loesch https://github.com/dloesch/leverage-ancestry
 
 library(dplyr)
 library(stringr)
