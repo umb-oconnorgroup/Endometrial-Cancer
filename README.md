@@ -1,18 +1,11 @@
 # Endoseq Project
 # Genetic ancestries and their relationship with endometrial cancer outcomes
 
-#Details: 
-*  all commands in italic
-*  paths in bold
+#Three main analyses: 
+*  Density distribution of somatic variants per diplotype
+*  Comparing Genome-wide average rate of somatic mutations across diplotypes in each individual
+*  Firth Regression to explore the relationship of local ancestry with total mutation burden (TMB) and histopathological outcomes
 
-**Raw dataset PATH: /local/chib/oconnor_genomes/EndometrialCancer/data/PAIRED**
-
-Determining the read length
-
-*zcat r_2006_FSFP192242716-1a_HWV27DSXX_L3_1.fq.gz | head -100 | awk '{if(NR%4==2) print length($1)}'*
-
-This line will print the first 100th lines then every four lines select the second one (NR%4==2) and print the length of it.
-
-
+Local ancestry was performed using RFMIX with four super population groups as references 
 
 
