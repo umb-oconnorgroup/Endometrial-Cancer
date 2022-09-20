@@ -1,4 +1,5 @@
-# Endometrial Cancer
+# Endoseq Project
+# Genetic ancestries and their relationship with endometrial cancer outcomes
 
 #Details: 
 *  all commands in italic
